@@ -1,0 +1,82 @@
+body {
+    background-image: url("images/backround.jpg");
+}
+
+#tabs {
+    background-color: rgb(138, 138, 138);
+    color: white;
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 20px; 
+}
+
+
+
+nav {
+    background-color: grey;
+    padding: 30px;
+    
+}
+
+table,th,td {
+    border: 1px solid grey;
+}
+ 
+#WhiteText {
+    color: white;
+    font-size: 25px;
+    
+}
+
+#game {
+    color: white;
+    background-color: grey;
+    padding:20px;
+}
+
+#bottom {
+ position: absolute;
+ bottom: 0;
+}
+
+#colored {
+    font-size: 25px;
+    position: relative;
+    -webkit-animation-name: colored; 
+    -webkit-animation-duration: 4s; 
+    -webkit-animation-iteration-count: infinite;
+    animation-name: colored;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+#colored-centered {
+width:300px;
+height:300px;
+margin-left:400px;
+bottom:0px;
+font-size: 25px;
+position: relative;
+-webkit-animation-name: colored; 
+-webkit-animation-duration: 4s; 
+-webkit-animation-iteration-count: infinite;
+animation-name: colored;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+/* ----------------------|Animations|-----------------------------------*/
+@-webkit-keyframes colored{
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: green;}
+    75%  {color: blue;}
+    100% {color: purple;}
+}
+
+@keyframes colored {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: green;}
+    75%  {color: blue;}
+    100% {color: purple;}
+}
