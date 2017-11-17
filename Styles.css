@@ -50,6 +50,17 @@ table,th,td {
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
+
+#colored_Normal {
+    position: relative;
+    -webkit-animation-name: colored;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: colored;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
 #colored-centered {
 width:300px;
 height:300px;
