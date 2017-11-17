@@ -8,7 +8,7 @@ body {
     padding-top: 20px;
     padding-right: 100px;
     padding-left: 100px;
-    padding-bottom: 20px; 
+    padding-bottom: 20px;
 }
 
 
@@ -16,23 +16,23 @@ body {
 nav {
     background-color: grey;
     padding: 30px;
-    
+
 }
 
 table,th,td {
     border: 1px solid grey;
 }
- 
+
 #WhiteText {
     color: white;
     font-size: 25px;
-    
+
 }
 
 #game {
     color: white;
     background-color: grey;
-    padding:32px;
+    padding:30px;
 }
 
 #bottom {
@@ -43,8 +43,8 @@ table,th,td {
 #colored {
     font-size: 25px;
     position: relative;
-    -webkit-animation-name: colored; 
-    -webkit-animation-duration: 4s; 
+    -webkit-animation-name: colored;
+    -webkit-animation-duration: 4s;
     -webkit-animation-iteration-count: infinite;
     animation-name: colored;
     animation-duration: 4s;
@@ -57,8 +57,8 @@ margin-left:400px;
 bottom:0px;
 font-size: 25px;
 position: relative;
--webkit-animation-name: colored; 
--webkit-animation-duration: 4s; 
+-webkit-animation-name: colored;
+-webkit-animation-duration: 4s;
 -webkit-animation-iteration-count: infinite;
 animation-name: colored;
 animation-duration: 4s;
